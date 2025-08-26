@@ -1,12 +1,10 @@
-import Navbar from "./Navbar"
-import Title from "./Title"
+import SiteHeader from "./SiteHeader"
 
 function About() {
 
   return (
     <>
-      <Title />
-      <Navbar />
+      <SiteHeader />
     </>
   )
 }

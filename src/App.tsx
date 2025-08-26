@@ -16,21 +16,17 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 
-import Title from "./Title"
-import Navbar from "./Navbar"
+
+import SiteHeader from "./SiteHeader"
 import ReviewSection from "./ReviewSection"
 import Map from "./Map"
 
 function App() {
   return (
     <>
-      <Title />
-      <Navbar />
+      <SiteHeader />
       <Map />
       <ReviewSection />
-
-
-
     </>
   )
 }

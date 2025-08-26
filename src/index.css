@@ -3,6 +3,20 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100vw);
+    display: inline;
+  }
+
+  /* Start off-screen to the right */
+  100% {
+    transform: translateX(-100vw);
+  }
+
+  /* End off-screen to the left */
+}
+
 .link {
   @apply pl-1 pr-1 underline text-blue-600 hover:text-blue-800 visited:text-purple-600;
 }

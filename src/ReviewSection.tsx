@@ -3,7 +3,8 @@ import { Facebook } from "lucide-react"
 function ReviewSection() {
   return (
     <>
-      <div className="flex-col flex items-center w-full h-fit border-1 bg-[#ededed]">
+      <div className="font-[Delius] flex-col flex items-center w-full h-fit border-1 bg-muted">
+
         <div className="flex flex-row items-center gap-5 m-5">
           <p className="text-sm md:text-lg">Leave us a Google review!</p>
 
@@ -11,13 +12,11 @@ function ReviewSection() {
             <div className="w-fit h-fit">
               <img className="w-[96px] md:w-[64px] border-2 border-white" src="../images/qr_code.png" alt="" />
             </div>
-
           </a>
           <p className="text-sm md:text-lg">(click or scan)</p>
-
         </div>
 
-        <div className="flex flex-row items-center gap-5 m-5">
+        <div className="flex flex-row items-center gap-3 md:gap-5 m-5">
           <p className="text-sm md:text-lg">Check out our Facebook page!</p>
 
           <a href="https://www.facebook.com/victorias.treefarm/">
