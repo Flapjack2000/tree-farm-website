@@ -19,7 +19,7 @@ function Navbar() {
     <>
       <div className="grid md:flex border-t-2 border-b-2 bg-accent">
         <NavbarButton text="Home" icon={IconHome} path="/" />
-        <NavbarButton text="Trees" icon={IconPineTree} path="/trees" />
+        <NavbarButton text="The Trees" icon={IconPineTree} path="/trees" />
         <NavbarButton text="About the Farm" icon={IconTractor} path="/about" />
       </div>
     </>
