@@ -6,14 +6,14 @@ function Map() {
       <div className="flex flex-col items-center">
         <div className="w-[70%] md:w-[40%] flex flex-col items-center">
 
-          <p className="pt-10 text-lg md:text-3xl">
+          <p className="pt-10 text-lg md:text-3xl" style={{ fontFamily: "Source Sans 3" }}>
             Get Directions
           </p>
           <p className="font-[Delius] text-xs md:text-lg">
             9990 Vosburg Ln NE, Ada, MI 49301
           </p>
-          <Separator />
 
+          <Separator />
 
           <iframe
             className="border-2 m-4 w-full aspect-square"

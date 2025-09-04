@@ -1,4 +1,4 @@
-function Banner({ loopTime }: { loopTime: number }) {
+function Banner({ text, loopTime }: { text: string, loopTime: number }) {
 
   return (
     <>
@@ -6,7 +6,7 @@ function Banner({ loopTime }: { loopTime: number }) {
 
         <div className="text-white overflow-hidden inline absolute whitespace-nowrap"
           style={{ animation: `banner ${loopTime}s linear infinite` }}>
-          WE ARE CLOSED FOR THE 2024 SEASON
+          {text.toUpperCase()}
         </div>
 
         <div className="text-white overflow-hidden inline absolute whitespace-nowrap"
@@ -14,7 +14,7 @@ function Banner({ loopTime }: { loopTime: number }) {
             transform: "translateX(100vw)",
             animation: `banner ${loopTime}s linear infinite ${loopTime / 2}s`
           }}>
-          WE ARE CLOSED FOR THE 2024 SEASON
+          {text.toUpperCase()}
         </div>
 
       </div>

@@ -6,7 +6,7 @@ function SiteHeader() {
     <>
       <Title />
       <Navbar />
-      <Banner loopTime={16} />
+      <Banner text={"We will open Friday, Nov 28 2025!"} loopTime={18} />
     </>
   )
 }
